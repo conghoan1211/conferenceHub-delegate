@@ -9,13 +9,6 @@ namespace API.ViewModels
         public UserLoginVM? Data { get; set; }
     }
 
-    public class LoginGoogleResult
-    {
-        public string? AccessToken { get; set; }
-        public bool? HasPassword { get; set; }
-        public UserLoginVM? Data { get; set; }
-    }
-
     public class UserLoginVM
     {
         public string? UserId { get; set; }
